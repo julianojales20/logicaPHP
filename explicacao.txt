@@ -1,0 +1,58 @@
+Como pensar como um programador?
+
+- Pense em etapas.
+- Pense nas ações de cada etapa.
+
+---
+
+1. QUERO ATRAVESSAR A RUA
+
+   ESTÁ NA FAIXA DE PEDETRE
+      {os carros pararam?
+         AÇÃO FINAL: Posso atravessar!
+      }
+      NÃO ESTÁ NA FAIXA DE PEDESTRA
+         {Temos que ir para a faixa de pedestres.
+            Enquanto não chegar na faixa, continue até chegar.
+         }
+
+2. Objetivo Jantar
+
+      Estar em casa
+         Estou com fome?
+            Temos comida?
+               SIM! VAMOS JANTAR
+
+      SE NÃO ESTIVE EM CASA
+         Tenho que ir pra casa
+            Cheguei em casa
+               Okay EXECUTAMOS A MESMA AÇÃO DO PRIMEIRO.
+
+----FORMULÁRIO DE CADASTRO
+
+USUÁRIO ENVIOU FORMULÁRIO.
+
+{
+   1 - email está correto?
+      se estiver
+      {
+         nome está correto?
+         se estiver
+         {
+            cpf está correto?
+            se estiver
+            {
+               REALIZAR O CADASTRO
+            }senão
+            {
+               apareça mensagem dizendo que está errado!
+            }
+         }senão
+         {
+            apareça mensagem dizendo que está errado!
+         }
+      }senão
+      {
+         apareça a mesnsagem dizendo que está errado!
+      }
+}
